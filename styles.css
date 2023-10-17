@@ -32,7 +32,7 @@ a:link {
 }
 
 a:visited {
-    color: purple;
+    color: rgb(255, 0, 0);
 }
 
 a:hover {
@@ -40,39 +40,42 @@ a:hover {
     text-decoration: underline;
 }
 
+#button-2 {
+    color: #df0eca; 
+}
 a:active {
-    color: red;
+    color: rgb(37, 212, 6);
 }
 a:visited:hover {
     color: orange;
 }
 a:visited:active {
-    color: red;
+    color: rgb(0, 255, 76);
 }
 .button:hover,
 .button:visited:hover {
-  color: #FFF;
+  color: #e31212;
   background-color: #76AEED;  /* Light blue */
 }
 .button:active,
 .button:visited:active {
   color: #FFF;
-  background-color: #5995DA;  /* Blue */
+  background-color: #003168;  /* Blue */
 }
 .call-to-action:link,
 .call-to-action:visited {
   font-style: italic;
-  background-color: #EEB75A;   
+  background-color: #6fe216;   
 }
 
 .call-to-action:hover,
 .call-to-action:visited:hover {
-  background-color: #F5CF8E;     
+  background-color: #ff0000;     
 }
 
 .call-to-action:active,
 .call-to-action:visited:active {
-  background-color: #EEB75A;    
+  background-color: #0fd17d;    
 }
 
 p:last-of-type {
@@ -86,5 +89,6 @@ p:first-of-type {
 .page > p:first-of-type {
     color: #7E8184;
     font-style: italic;
-  }
-  
+}
+
+    
